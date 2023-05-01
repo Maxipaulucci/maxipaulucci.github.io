@@ -221,7 +221,7 @@ label {
 
     input:checked~ul {
         display: block;
-        position: fixed;
+        position: absolute;
         right: 130px;
         z-index: 1;
     }
@@ -304,8 +304,4 @@ label {
 ul li a {
     text-decoration: none;
     color: black;
-}
-
-ul li a:hover {
-    color: red;
 }
